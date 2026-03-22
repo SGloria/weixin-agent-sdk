@@ -26,17 +26,21 @@ npx weixin-acp login
 
 ### Claude Code
 
-> 需要先安装 [claude-agent-acp](https://github.com/zed-industries/claude-agent-acp)
-
 ```bash
+# 安装 claude-agent-acp
+npm install -g @zed-industries/claude-agent-acp
+
+# 启动 agent
 npx weixin-acp start -- claude-agent-acp
 ```
 
 ### Codex
 
-> 需要先安装 [codex-acp](https://github.com/zed-industries/codex-acp)
-
 ```bash
+# 安装 codex-acp
+npm install -g @zed-industries/codex-acp
+
+# 启动 agent
 npx weixin-acp start -- codex-acp
 ```
 
